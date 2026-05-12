@@ -1,0 +1,43 @@
+{
+  "name": "sabir7718-temp-mail-api",
+  "version": "1.0.0",
+  "description": "Realtime Temporary Email API with Gmail Forwarding + WebSocket Support",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test-ws": "node test.js"
+  },
+  "keywords": [
+    "temp-mail",
+    "temporary-email",
+    "gmail",
+    "websocket",
+    "otp",
+    "realtime",
+    "express",
+    "firebase",
+    "sabir7718"
+  ],
+  "author": "SABIR7718",
+  "license": "MIT",
+  "homepage": "https://github.com/SABIR7718",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SABIR7718/temp-mail-api"
+  },
+  "bugs": {
+    "url": "https://github.com/SABIR7718/temp-mail-api/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@sabir7718/log": "^1.0.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "googleapis": "^171.4.0",
+    "ws": "^8.20.0"
+  }
+}
