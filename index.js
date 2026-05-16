@@ -34,10 +34,13 @@ const {
     log
 } = require("@sabir7718/log");
 const crypto = require("crypto");
+const cors = require("cors");
 const http = require("http");
 const WebSocket = require("ws");
 
 const S7HaTeSY = express();
+
+S7HaTeSY.use(cors());
 
 const server =
     http.createServer(S7HaTeSY);
