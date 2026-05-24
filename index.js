@@ -68,15 +68,7 @@ const auth =
     );
 
 auth.setCredentials({
-
-    access_token: process.env.GMAIL_ACCESS_TOKEN,
-
-    refresh_token: process.env.GMAIL_REFRESH_TOKEN,
-
-    scope: "https://www.googleapis.com/auth/gmail.modify",
-
-    token_type: "Bearer"
-
+    refresh_token: process.env.GMAIL_REFRESH_TOKEN
 });
 
 const gmail = google.gmail({
